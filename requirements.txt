@@ -1,4 +1,8 @@
+# MCP SDK - for validation (actual protocol handling is done manually)
 mcp>=1.0.0
+# FastAPI web framework
 fastapi>=0.115.0
+# ASGI server
 uvicorn[standard]>=0.32.0
+# SSE support for FastAPI
 sse-starlette>=2.1.0
